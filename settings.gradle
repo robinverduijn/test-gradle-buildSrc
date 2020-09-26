@@ -8,3 +8,6 @@
  */
 
 rootProject.name = 'test-gradle-buildSrc'
+
+def util = new test.BuildUtility()
+util.doSomething()
